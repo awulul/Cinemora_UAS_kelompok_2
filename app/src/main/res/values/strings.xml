@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cinemora2</string>
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <!-- Main -->
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="account">Account</string>
+    <string name="list">list\n</string>
+    <string name="grid">grid\n</string>
+
+</resources>

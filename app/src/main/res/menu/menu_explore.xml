@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_list"
+        android:title="Tampilan List"
+        app:showAsAction="never" /> <!-- 'never' agar masuk ke dalam titik 3 -->
+
+    <item
+        android:id="@+id/action_grid"
+        android:title="Tampilan Grid"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Custom Cinemora -->
+    <color name="primary">#FFFFFF</color>           <!-- Putih untuk Toolbar/Atas -->
+    <color name="secondary">#008D97</color>         <!-- Toska untuk tombol/ikon -->
+    <color name="background">#F0F5F6</color>        <!-- Abu-abu kebiruan sangat muda untuk latar belakang -->
+    <color name="textColor">#333333</color>         <!-- Hitam keabuan untuk teks agar mudah dibaca -->
+    <color name="inactiveColor">#8E8E8E</color>      <!-- Abu-abu untuk menu yang tidak aktif -->
+
+</resources>
