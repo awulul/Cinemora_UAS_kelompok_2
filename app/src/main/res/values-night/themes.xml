@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.Cinemora" parent="Theme.Material3.DayNight.NoActionBar">
-
         <item name="colorPrimary">@color/secondary</item>
         <item name="colorOnPrimary">@color/white</item>
-
         <item name="android:colorBackground">@color/background</item>
-
     </style>
 
+    <!-- Style untuk BottomSheetDialog -->
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+    </style>
 </resources>

@@ -2,9 +2,13 @@ package com.example.cinemora.adapter;
 
 import android.view.*;
 import android.widget.*;
+
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
 import com.example.cinemora.R;
 import com.example.cinemora.model.Film;
+
 import java.util.List;
 
 public class FilmAdapter extends RecyclerView.Adapter<FilmAdapter.VH> {
@@ -50,13 +54,26 @@ public class FilmAdapter extends RecyclerView.Adapter<FilmAdapter.VH> {
     @Override
     public void onBindViewHolder(VH h, int i) {
         Film f = list.get(i);
+
         h.judul.setText(f.getJudul());
-        h.img.setImageResource(f.getGambar());
+
+        // 🔥 CEK API ATAU LOCAL
+        if (f.getPosterPath() != null) {
+            String url = "https://image.tmdb.org/t/p/w500" + f.getPosterPath();
+
+            Glide.with(h.img.getContext())
+                    .load(url)
+                    .into(h.img);
+
+
+        } else {
+            h.img.setImageResource(f.getGambar());
+        }
 
         if (h.sub != null) {
             h.sub.setText(f.getTahun());
         }
-        
+
         if (h.rating != null) {
             h.rating.setText(String.valueOf(f.getRating()));
         }
@@ -67,5 +84,7 @@ public class FilmAdapter extends RecyclerView.Adapter<FilmAdapter.VH> {
     }
 
     @Override
-    public int getItemCount() { return list.size(); }
+    public int getItemCount() {
+        return list.size();
+    }
 }

@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rating Tertinggi"
+            android:text="Populer"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold"/>
@@ -59,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Film Populer 2024"
+            android:text="Now Playing"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold"/>
@@ -75,7 +75,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Film Populer 2023"
+            android:text="Coming Soon"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold"/>
@@ -91,60 +91,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Film Populer 2022"
+            android:text="Top Rating"
             android:textColor="@color/black"
             android:textSize="17sp"
             android:textStyle="bold"/>
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv2022"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="24dp"
-            android:orientation="horizontal"/>
-
-        <!-- Section: 2021 -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Film Populer 2021"
-            android:textColor="@color/black"
-            android:textSize="17sp"
-            android:textStyle="bold"/>
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv2021"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="24dp"
-            android:orientation="horizontal"/>
-
-        <!-- Section: 2020 -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Film Populer 2020"
-            android:textColor="@color/black"
-            android:textSize="17sp"
-            android:textStyle="bold"/>
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv2020"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="24dp"
-            android:orientation="horizontal"/>
-
-        <!-- Section: 2019 -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Film Populer 2019"
-            android:textColor="@color/black"
-            android:textSize="17sp"
-            android:textStyle="bold"/>
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv2019"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

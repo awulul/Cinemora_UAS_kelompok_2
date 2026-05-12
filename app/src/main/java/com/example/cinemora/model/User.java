@@ -1,7 +1,12 @@
 package com.example.cinemora.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class User {
+    @SerializedName("username")
     private String username;
+
+    @SerializedName("password")
     private String password;
 
     public User(String username, String password) {
